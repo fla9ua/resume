@@ -1,185 +1,262 @@
 # Resume
 
-**Name:** [Private]  
-**Age:** 25  
+> Personal information has been anonymized because this repository is public.
 
-## Summary
-
-Backend Engineer with nearly 5 years of experience in maintaining and improving EC platforms and legacy systems.  
-Mainly worked with PHP/Laravel, focusing on analyzing existing codebases, performing incremental refactoring, and designing systems with long-term operation and maintainability in mind.
-
-Recently, I have led internal AI initiatives, planning, developing, and operating AI-driven products such as Slack bots, product recommendation chats, and FAQ systems using LangChain and Azure OpenAI.  
-I value rapid delivery and continuous improvement, releasing usable products quickly and refining them based on logs and real usage in production environments.
-
-My strengths lie in designing and implementing solutions even in ambiguous situations, and in quickly learning and applying new technologies to real-world systems.
-
-## Core Strengths
-
-- Analyzing and safely refactoring legacy codebases  
-- Backend design and development with PHP / Laravel  
-- AI-driven product development and workflow automation using LangChain and Azure OpenAI  
-- End-to-end ownership from planning to release and operational improvement  
-- Collaborating with non-engineers to clarify requirements and deliver solutions  
-
-## Work Experience
-
-### IT Company (Company S) | Apr 2022 – Nov 2023
-
-#### Authentication Platform Development (OIDC)
-
-**Overview**  
-Development of a common authentication platform using SAP Customer Data Cloud (CDC).  
-The project followed a waterfall model, implementing approximately 10 APIs per service.  
-Team structure consisted of a PM and 1–2 engineers.
-
-**Responsibilities**  
-- API design and implementation  
-- Technical documentation  
-- Unit test automation (Python / Pytest)
-
-**Key Contributions**  
-- Designed error handling and logging policies in the absence of detailed specifications  
-- Introduced automated testing with Pytest while learning it from scratch  
-- Refactored common logic to improve test efficiency  
-- Reduced SAP CDC API calls to improve response times  
-- Actively proposed improvements for unnecessary or problematic specifications
-
-**Environment**  
-- **OS:** Windows  
-- **Languages:** PHP  
-- **Framework:** Laravel  
-- **Database:** PostgreSQL  
-- **Tools:** SAP CDC, Git, Backlog, Docker, Nginx  
-- **Role:** Engineer  
-- **Team Size:** PMO 1, PM 1, PL 2, Developers 6+  
-
-**Results**  
-- Reduced unit-test-level defects to near zero  
-- Shortened unit testing from several days to approximately 30 minutes  
-- Improved overall system quality while reducing development effort  
+**Name:** Private  
+**Age:** 26
 
 ---
 
-### Business Company (Company G) | Dec 2023 – Present
+# Summary
 
-#### EC Site UI/UX Renewal Project (Backend)
+Backend Engineer with approximately 5 years of experience building and maintaining web applications, primarily for e-commerce platforms.
 
-**Overview**  
-A cross-functional project to renew the UI/UX of an EC site originally built in the early 2000s.  
-The goal was to improve user experience, reduce bounce rates, and increase conversion rates.  
-Project duration was three months, with a team of approximately 10 members.  
-I was the only backend engineer.
+Specialized in backend development using PHP/Laravel, with experience across the full development lifecycle including requirements definition, design, implementation, testing, deployment, and maintenance.
 
-**Responsibilities**  
-- Backend development  
-- Behavior adjustments using JavaScript/jQuery  
-- AWS configuration  
-(*HTML/CSS implementation was handled by another team member*)
-
-**Key Contributions**  
-- Investigated historical Backlog records to understand undocumented specifications  
-- Reorganized the MVC structure using Laravel best practices  
-- Identified and fixed hidden bugs through hypothesis-driven debugging without Xdebug  
-- Worked closely with marketing and design teams to quickly reflect requirements
-
-**Environment**  
-- **Languages:** PHP, JavaScript, jQuery  
-- **Frameworks:** Mojavi, Smarty  
-- **Infrastructure:** AWS, Vagrant  
-- **Tools:** Backlog  
-
-**Results**  
-- Successfully delivered improvements aligned with marketing requirements  
-- Enhanced site stability and performance  
-- Resolved multiple latent issues across the system  
+Recently focused on AI-powered applications using Azure OpenAI and LangChain, as well as infrastructure optimization projects such as Cloudflare CDN migration. In addition to professional work, I actively develop SaaS products and contribute to open source projects.
 
 ---
 
-#### Internal AI Enablement & Workflow Automation
+# Core Competencies
 
-**Overview**  
-Led internal AI initiatives to improve operational efficiency and prepare for future AI-driven services.  
-I was solely responsible for planning, development, and operation.
-
-**Key Contributions**  
-- Built an internal AI foundation using LangChain and Azure OpenAI  
-- Developed and deployed a GPT-powered Slack bot accessible to non-engineers  
-- Created CI/CD templates using GitHub Actions and ECS  
-- Focused on rapid delivery of practical AI tools to encourage company-wide adoption
-
-**Results**  
-- Deployed AI tools company-wide, now used daily in regular operations  
-- Improved overall AI literacy within the organization  
-- Established a trusted position with management for ongoing AI-related initiatives  
+- Backend Development with PHP/Laravel
+- Legacy System Modernization
+- AI Application Development (Azure OpenAI / LangChain)
+- AWS & Cloudflare Infrastructure
+- Product Planning and Technical Design
+- Open Source & Personal SaaS Development
 
 ---
 
-### Product Recommendation AI Chat
+# Professional Experience
 
-**Overview**  
-Developed an AI chat system that recommends optimal products through conversational interaction on an EC site.  
-The goal was to improve customer experience and increase conversion rates.
+## IT Company (Company S)
+**Apr 2022 – Nov 2023**
 
-**Team**  
-6 members (Engineer: myself)
+### Authentication Platform Development
 
-**Tech Stack**  
-Python / LangChain / Azure OpenAI (GPT-4o-mini) / Azure AI Search / AWS Lambda / GitHub Actions
+#### Overview
 
-**Key Contributions**  
-- Extracted search parameters from conversation context using LangChain  
-- Integrated Azure AI Search for product retrieval  
-- Optimized API usage to balance real-time responses and cost  
-- Completed planning to release within approximately one month
+Developed a shared authentication platform based on SAP Customer Data Cloud (OIDC compliant).
 
-**Results**  
-- Achieved higher-than-expected improvements in conversion rates  
-- Accumulated internal knowledge on AI-driven search and recommendation systems  
+#### Responsibilities
 
----
+- API Design & Development
+- Backend Development using Laravel
+- Automated Testing with Python (Pytest)
+- Technical Documentation
 
-### In-house FAQ Chat System & Cost Reduction
+#### Key Contributions
 
-**Challenge**  
-Existing SaaS-based FAQ bots were costly and unsuitable for a multi-site strategy.  
-Seasonal usage and manual FAQ preparation by the support team caused operational inefficiencies.
+- Designed missing implementation details
+- Reduced unnecessary SAP CDC API calls
+- Introduced automated testing using Pytest
+- Proposed multiple specification improvements
 
-**Approach**  
-Initiated the project independently and proposed a solution using a working prototype.  
-Collaborated with customer support and frontend teams to refine requirements.  
-Developed an FAQ chat system using Vibe Coding with Next.js and Azure OpenAI (LangChain / LangSmith).  
-Delivered a deployable product within one week.
+#### Achievements
 
-**Design & Improvements**  
-- Reduced hallucination risk by presenting multiple similar FAQs and letting users select the correct one  
-- Logged unanswered queries and continuously added them to the QA dataset, forming a feedback loop
+- Improved code quality
+- Reduced testing time from several days to approximately 30 minutes
+- Increased development efficiency
 
-**Results**  
-- Reduced infrastructure costs to approximately one-tenth (¥10,000 → under ¥1,000 per site)  
-- Enabled continuous operation instead of peak-season-only usage  
-- Significantly reduced the workload of the customer support team  
+#### Tech Stack
+
+- PHP
+- Laravel
+- Python
+- PostgreSQL
+- SAP CDC
+- Docker
+- Git
+- Nginx
 
 ---
 
-## Certifications
+## Product Company (Company G)
+**Dec 2023 – Present**
 
-- Fundamental Information Technology Engineer Examination (FE) – Nov 2022  
-- AWS Certified Cloud Practitioner – Feb 2023  
-- AWS Certified Solutions Architect – Associate – Mar 2023  
-- TOEIC Score: 630 – May 2023  
-- Applied Information Technology Engineer (AP) – Dec 2025  
-- AWS Certified Solutions Architect – Professional (SAP-C02) – Dec 2025  
+### E-commerce Platform Development
 
-## Technical Skills
+Maintained and enhanced a legacy e-commerce platform.
 
-*(Same structure as Japanese version can be reused if needed)*
+#### Responsibilities
 
-## Self Introduction
+- Backend Development
+- JavaScript UI Improvements
+- AWS Configuration
+- Bug Investigation & Maintenance
 
-With nearly five years of experience as a backend engineer, I have worked on EC site maintenance, legacy system improvement, and AI-driven product development.  
-I am particularly comfortable working in ambiguous environments, identifying requirements through investigation, and delivering stable, maintainable solutions.
+#### Achievements
 
-Recently, I have focused on applying LLM-based technologies to real business operations, taking responsibility from planning to deployment and continuous improvement.  
-Rather than stopping at implementation, I value building systems that can evolve through feedback and real-world usage.
+- Improved platform stability
+- Resolved multiple hidden issues
+- Supported marketing-driven feature development
 
-I aim to contribute not only through technical execution but also by considering operational efficiency and business impact, and I am motivated to take on roles that involve leading initiatives and shaping products that drive tangible value.
+---
+
+### Cloudflare CDN Migration
+
+Planned and executed migration from an existing CDN to Cloudflare Business.
+
+#### Responsibilities
+
+- Cloudflare Architecture Design
+- DNS Migration
+- Cache Rules
+- SSL/TLS Configuration
+- Production Migration
+
+#### Achievements
+
+- Successfully migrated multiple domains without downtime
+- Optimized CDN operating costs
+- Improved maintainability
+
+---
+
+### AI Product Recommendation Chat
+
+Designed and developed an AI-powered product recommendation chatbot for an e-commerce platform.
+
+#### Responsibilities
+
+- Planning
+- System Design
+- Backend Development
+- Azure AI Search Integration
+- Azure OpenAI Integration
+
+#### Achievements
+
+- Improved conversion rate (CVR)
+- Featured in a newspaper
+- Established internal AI development knowledge
+
+---
+
+### AI FAQ Chatbot
+
+Developed an in-house AI FAQ chatbot replacing an external SaaS solution.
+
+#### Responsibilities
+
+- Project Proposal
+- Requirements Definition
+- Next.js Development
+- Azure OpenAI Integration
+- Operational Improvement
+
+#### Achievements
+
+- Reduced infrastructure cost by approximately 90%
+- Enabled continuous deployment
+- Reduced customer support workload
+
+---
+
+# Certifications
+
+- Fundamental Information Technology Engineer Examination
+- Applied Information Technology Engineer Examination
+- AWS Certified Cloud Practitioner
+- AWS Certified Solutions Architect – Associate
+- AWS Certified Solutions Architect – Professional
+- TOEIC 630
+
+---
+
+# Technical Skills
+
+| Category | Technologies |
+|----------|--------------|
+| Languages | PHP, Go, Python, TypeScript, JavaScript, SQL |
+| Frameworks | Laravel, Next.js, LangChain, LangGraph |
+| Cloud | AWS, Azure, Cloudflare |
+| AI | Azure OpenAI, OpenAI API, Azure AI Search |
+| Database | PostgreSQL, Supabase |
+| CI/CD | GitHub Actions |
+| Tools | Git, Docker, Cursor, VS Code |
+
+---
+
+# Open Source
+
+## dango-pack
+
+Reusable Agent Skills framework for Claude Code.
+
+https://github.com/fla9ua/dango-pack
+
+---
+
+## markdown_to_mrkdwn
+
+Python library for converting Markdown into Slack mrkdwn.
+
+https://github.com/fla9ua/markdown_to_mrkdwn
+
+---
+
+## vscode-yaml-preview-ui
+
+Visual Studio Code extension for YAML visualization.
+
+https://github.com/fla9ua/vscode-yaml-preview-ui
+
+---
+
+# Personal Projects
+
+## AddressToZip
+
+Japanese address to ZIP code search service.
+
+https://addresstozip.jp
+
+---
+
+## LiteFAQ
+
+AI-powered FAQ chatbot service.
+
+https://litefaq.com
+
+---
+
+## RecapTeam
+
+AI-powered daily report SaaS built with Go, React, and Supabase.
+
+https://recapteam.jp
+
+---
+
+# Technical Writing
+
+GitHub
+
+https://github.com/fla9ua
+
+Qiita
+
+https://qiita.com/fla9ua
+
+note
+
+https://note.com/fla9ua
+
+LinkedIn
+
+https://www.linkedin.com/in/2b3894266
+
+---
+
+# About Me
+
+I am a backend engineer who enjoys solving business problems through technology.
+
+Rather than simply implementing requirements, I focus on understanding business challenges, proposing technical solutions, and delivering products that create measurable value.
+
+Recently, I have been expanding my expertise in AI application development, cloud infrastructure, and SaaS development through both professional projects and open source activities.
+
+My long-term goal is to become a Tech Lead who can drive product development from both technical and business perspectives.
